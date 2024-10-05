@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "602113573202",
+    "project_id": "noot-app-39eee",
+    "storage_bucket": "noot-app-39eee.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:602113573202:android:6b82dce260e3e20223fa8b",
+        "android_client_info": {
+          "package_name": "com.example.noottodo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBgkXZtJc8LHhin67F55vCaUzr_4Ai6_Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
