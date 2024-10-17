@@ -8,6 +8,7 @@ import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
 import androidx.room.Room
 import com.example.noottodo.databinding.FragmentHomeBinding
+import com.google.firebase.auth.FirebaseAuth
 
 
 class HomeFragment : Fragment() {
@@ -36,6 +37,13 @@ class HomeFragment : Fragment() {
 
         binding.addBtn.setOnClickListener {
             findNavController().navigate(R.id.action_homeFragment_to_addFragment)
+        }
+
+        binding.logoutBtn.setOnClickListener {
+            val auth = FirebaseAuth.getInstance()
+            auth.signOut().apply {
+                findNavController().navigate(R.id.action_homeFragment_to_loginFragment)
+            }
         }
 
 
